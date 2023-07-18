@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/YAD2K](https://github.com/allanzelener/YAD2K).
+An update of the Keras implementation of YOLOv3 (Tensorflow backend) from [qqwweee](https://github.com/qqwweee/keras-yolo3), inspired by [allanzelener/YAD2K](https://github.com/allanzelener/YAD2K).
 
 
 ---
@@ -48,6 +48,7 @@ optional arguments:
 ---
 
 4. MultiGPU usage: use `--gpu_num N` to use N GPUs. It is passed to the [Keras multi_gpu_model()](https://keras.io/utils/#multi_gpu_model).
+(disclaimer: no idea if it works)
 
 ## Training
 
